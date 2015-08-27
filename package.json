@@ -38,7 +38,7 @@
   "peerDependencies": {
     "react": ">= 0.13.0"
   },
-  "main": "dist/react-typeahead.js",
+  "main": "lib/react-typeahead.js",
   "devDependencies": {
     "browserify": "^8.0.2",
     "chai": "^1.9.1",
