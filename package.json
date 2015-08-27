@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fmoo/react-typeahead.git"
+    "url": "https://github.com/Miutcank/react-typeahead.git"
   },
   "dependencies": {
     "classnames": "^1.2.0",
@@ -38,7 +38,7 @@
   "peerDependencies": {
     "react": ">= 0.13.0"
   },
-  "main": "lib/react-typeahead.js",
+  "main": "dist/react-typeahead.js",
   "devDependencies": {
     "browserify": "^8.0.2",
     "chai": "^1.9.1",
