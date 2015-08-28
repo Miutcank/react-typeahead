@@ -1,6 +1,6 @@
 {
   "name": "miu-react-typeahead",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "React-based typeahead and typeahead-tokenizer",
   "keywords": [
     "react",
