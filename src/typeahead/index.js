@@ -74,6 +74,7 @@ var Typeahead = React.createClass({
       onFocus: function(event) {},
       onBlur: function(event) {},
       onClick: function(event) {},
+      'data-emptyText': null,
       filterOption: null,
       defaultClassNames: true,
       customListComponent: TypeaheadSelector
@@ -101,6 +102,9 @@ var Typeahead = React.createClass({
     var result = filterOptions(value, options);
     if (this.props.maxVisible) {
       result = result.slice(0, this.props.maxVisible);
+    }
+    if (result.length === 0 && this.props['data-emptyText']) {
+        result = [this.props['data-emptyText']];
     }
     return result;
   },
